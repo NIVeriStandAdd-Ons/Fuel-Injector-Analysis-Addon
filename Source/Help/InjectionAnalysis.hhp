@@ -1,0 +1,39 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=InjectionAnalysis.chm
+Default topic=Main.html
+Display compile progress=No
+Language=0x409 English (United States)
+
+
+[FILES]
+common.js
+feedbacklink.js
+variables.js
+objectnames.js
+domtools.js
+arraytools.js
+osbrowser.js
+initpagedyn.js
+checkinstalled.js
+dynamiccontent.js
+dynamiclinks.js
+linking.js
+launchhelp.js
+stylesheets.js
+web.js
+pdf.js
+Main.html
+Fuel Injector Analysis Settings.html
+Fuel Injector FPGA Status.html
+Fuel Injector Global Settings.html
+Fuel Injector Results.html
+Fuel Injector Settings.html
+Fuel Injector Shot.html
+Fuel Injector Stage.html
+Fuel Injector Waveforms.html
+Fuel Injector.html
+Fuel Injector Global Settings.html
+
+[INFOTYPES]
+
