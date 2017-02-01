@@ -26,9 +26,11 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
+		<Item Name="Analysis.UI.Refs.ctl" Type="VI" URL="../System Explorer/Types/Analysis.UI.Refs.ctl"/>
 		<Item Name="Fuel Injection Addon Engine.lvlib" Type="Library" URL="../Engine/Fuel Injection Addon Engine.lvlib"/>
 		<Item Name="Fuel Injection Addon Shared.lvlib" Type="Library" URL="../Shared/Fuel Injection Addon Shared.lvlib"/>
 		<Item Name="Fuel Injection Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Fuel Injection Addon System Explorer.lvlib"/>
+		<Item Name="Untitled 5.vi" Type="VI" URL="../../../../Users/deaton/Desktop/Untitled 5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>

@@ -12,6 +12,7 @@
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Fuel Injector Default Section.vi" Type="VI" URL="../Pages/Fuel Injector Default Section.vi"/>
 				<Item Name="Fuel Injector Analysis Selection.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Selection.vi"/>
+				<Item Name="Fuel Injector Analysis Section.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Section.vi"/>
 				<Item Name="Global Settings.vi" Type="VI" URL="../Global Settings.vi"/>
 				<Item Name="Protected Channel.vi" Type="VI" URL="../Pages/Protected Channel.vi"/>
 			</Item>
@@ -31,6 +32,7 @@
 			<Item Name="Add Peak and Valley Detection Settings Section.vi" Type="VI" URL="../Add Peak and Valley Detection Settings Section.vi"/>
 			<Item Name="Add Stage Section.vi" Type="VI" URL="../subVIs/Add Stage Section.vi"/>
 			<Item Name="Add Waveform Section.vi" Type="VI" URL="../subVIs/Add Waveform Section.vi"/>
+			<Item Name="Analysis.Selection.Create.vi" Type="VI" URL="../subVIs/Analysis.Selection.Create.vi"/>
 			<Item Name="Analysis.Selection.Get.vi" Type="VI" URL="../subVIs/Analysis.Selection.Get.vi"/>
 			<Item Name="Build FromVSEngine Command Channels.vi" Type="VI" URL="../subVIs/Build FromVSEngine Command Channels.vi"/>
 			<Item Name="Build ToVSEngine Return Channels.vi" Type="VI" URL="../subVIs/Build ToVSEngine Return Channels.vi"/>
@@ -39,6 +41,7 @@
 			<Item Name="Channel.OriginalName.Set.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Set.vi"/>
 			<Item Name="Create Injectors.vi" Type="VI" URL="../subVIs/Create Injectors.vi"/>
 			<Item Name="Find Expected Controls.vi" Type="VI" URL="../subVIs/Find Expected Controls.vi"/>
+			<Item Name="Investigate Auto Find Stages.vi" Type="VI" URL="../../../../../Users/deaton/Desktop/Investigate Auto Find Stages.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../subVIs/Load Help File.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../subVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Register.Get.vi" Type="VI" URL="../subVIs/Register.Get.vi"/>
