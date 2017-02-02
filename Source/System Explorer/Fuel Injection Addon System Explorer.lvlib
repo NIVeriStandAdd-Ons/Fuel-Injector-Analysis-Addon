@@ -13,6 +13,8 @@
 				<Item Name="Fuel Injector Default Section.vi" Type="VI" URL="../Pages/Fuel Injector Default Section.vi"/>
 				<Item Name="Fuel Injector Analysis Selection.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Selection.vi"/>
 				<Item Name="Fuel Injector Analysis Section.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Section.vi"/>
+				<Item Name="Fuel Injector Pull In Transition.vi" Type="VI" URL="../Pages/Fuel Injector Pull In Transition.vi"/>
+				<Item Name="Fuel Injector Stage Transition.vi" Type="VI" URL="../Pages/Fuel Injector Stage Transition.vi"/>
 				<Item Name="Global Settings.vi" Type="VI" URL="../Global Settings.vi"/>
 				<Item Name="Protected Channel.vi" Type="VI" URL="../Pages/Protected Channel.vi"/>
 			</Item>
@@ -22,6 +24,9 @@
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+		</Item>
+		<Item Name="Files" Type="Folder">
+			<Item Name="Analysis.Selection.rtm" Type="Document" URL="../Files/Analysis.Selection.rtm"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add Bitfile as Dependent File Property.vi" Type="VI" URL="../subVIs/Add Bitfile as Dependent File Property.vi"/>
@@ -44,11 +49,13 @@
 			<Item Name="Investigate Auto Find Stages.vi" Type="VI" URL="../../../../../Users/deaton/Desktop/Investigate Auto Find Stages.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../subVIs/Load Help File.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../subVIs/Parse FPGA Bitfile.vi"/>
+			<Item Name="Pulses.Count.vi" Type="VI" URL="../subVIs/Pulses.Count.vi"/>
 			<Item Name="Register.Get.vi" Type="VI" URL="../subVIs/Register.Get.vi"/>
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../subVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Selection.Convert.Get.vi" Type="VI" URL="../subVIs/Selection.Convert.Get.vi"/>
 			<Item Name="Selection.Convert.Set.vi" Type="VI" URL="../subVIs/Selection.Convert.Set.vi"/>
 			<Item Name="Stage.Settings.vi" Type="VI" URL="../subVIs/Stage.Settings.vi"/>
+			<Item Name="Waveform.Selection.vi" Type="VI" URL="../subVIs/Waveform.Selection.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Analysis.UI.Refs.ctl" Type="VI" URL="../Types/Analysis.UI.Refs.ctl"/>

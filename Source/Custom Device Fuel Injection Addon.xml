@@ -322,6 +322,38 @@
         <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Protected Channel.vi</Path>
       </Item2Launch>
     </Page>
+    <Page>
+      <Name>
+        <eng>Pull In Transition Setting</eng>
+        <loc>Pull In Transition Setting</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>1D0C00B4-381A-4E43-BECA-CB3D657DE24D</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Pull In Transition.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Stage Transition Setting</eng>
+        <loc>Stage Transition Setting</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>A8325CED-C5AD-4B11-973A-2D5825B320C2</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Stage Transition.vi</Path>
+      </Item2Launch>
+    </Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>
