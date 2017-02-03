@@ -14,6 +14,8 @@
 			<Item Name="VS.Register.Info.ctl" Type="VI" URL="../Types/VS.Register.Info.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
 			<Item Name="Injector info.ctl" Type="VI" URL="../Types/Injector info.ctl"/>
+			<Item Name="Shot.Parameters.ctl" Type="VI" URL="../Types/Shot.Parameters.ctl"/>
+			<Item Name="Stage.Parameters.ctl" Type="VI" URL="../Types/Stage.Parameters.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="Main Settings FG.vi" Type="VI" URL="../Main Settings FG.vi"/>

@@ -56,6 +56,7 @@
 		<Item Name="Open FPGA Reference.vi" Type="VI" URL="../SubVIs/Open FPGA Reference.vi"/>
 		<Item Name="Register.Initialize.vi" Type="VI" URL="../SubVIs/Register.Initialize.vi"/>
 		<Item Name="Registers.Initialize.vi" Type="VI" URL="../SubVIs/Registers.Initialize.vi"/>
+		<Item Name="RT.Stages.Find.vi" Type="VI" URL="../SubVIs/RT.Stages.Find.vi"/>
 		<Item Name="Update RIO INI File.vi" Type="VI" URL="../SubVIs/Update RIO INI File.vi"/>
 		<Item Name="Write To FPGA.vi" Type="VI" URL="../SubVIs/Write To FPGA.vi"/>
 	</Item>
