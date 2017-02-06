@@ -29,6 +29,7 @@
 		<Item Name="Fuel Injection Addon Engine.lvlib" Type="Library" URL="../Engine/Fuel Injection Addon Engine.lvlib"/>
 		<Item Name="Fuel Injection Addon Shared.lvlib" Type="Library" URL="../Shared/Fuel Injection Addon Shared.lvlib"/>
 		<Item Name="Fuel Injection Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Fuel Injection Addon System Explorer.lvlib"/>
+		<Item Name="Search.StateVariables.ctl" Type="VI" URL="../Engine/Types/Search.StateVariables.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
