@@ -124,9 +124,6 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Stage.Events.ctl" Type="VI" URL="../Shared/Types/Stage.Events.ctl"/>
-			<Item Name="Stage.PullIn.Types.ctl" Type="VI" URL="../Shared/Types/Stage.PullIn.Types.ctl"/>
-			<Item Name="Stage.Transition.Types.ctl" Type="VI" URL="../Shared/Types/Stage.Transition.Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -433,9 +430,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Stage.Events.ctl" Type="VI" URL="../Shared/Types/Stage.Events.ctl"/>
-			<Item Name="Stage.PullIn.Types.ctl" Type="VI" URL="../Shared/Types/Stage.PullIn.Types.ctl"/>
-			<Item Name="Stage.Transition.Types.ctl" Type="VI" URL="../Shared/Types/Stage.Transition.Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -678,9 +672,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Stage.Events.ctl" Type="VI" URL="../Shared/Types/Stage.Events.ctl"/>
-			<Item Name="Stage.PullIn.Types.ctl" Type="VI" URL="../Shared/Types/Stage.PullIn.Types.ctl"/>
-			<Item Name="Stage.Transition.Types.ctl" Type="VI" URL="../Shared/Types/Stage.Transition.Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -945,9 +936,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Stage.Events.ctl" Type="VI" URL="../Shared/Types/Stage.Events.ctl"/>
-			<Item Name="Stage.PullIn.Types.ctl" Type="VI" URL="../Shared/Types/Stage.PullIn.Types.ctl"/>
-			<Item Name="Stage.Transition.Types.ctl" Type="VI" URL="../Shared/Types/Stage.Transition.Types.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
