@@ -16,18 +16,18 @@
 <hr width="100%" noshade>
 </noscript><h1>Global Settings</h1>
 <h2>What do you want to do?</h2>
-<p>Use the <strong>Event Dwell Limit setting</strong> to define the maximum number of samples the acquisition engine will wait after the injector voltage signal goes low before considering an injection event complete.</p>
+<h3>Enable Injection Capture</h3>
+<p>The monitoring and processing of injection events can be turned off.  To do this, set <strong>Enable Injection Capture</strong> false.  The default is false.</p>
 </p>
-<p>Use the <strong>Phase Dwell Limit setting</strong> to define the maximum number of samples the acquisition engine will wait after the injector voltage signal goes low before considering an injection phase complete.</p>
+<h3>Set Initial Voltage Threshold</h3>
+<p>The FPGA injection monitors both voltage and current for an injector.  It compares the voltage channel against the <strong>Initial Voltage Threshold</strong> to determine the start of an injection event.  Set <strong>Initial Voltage Threshold</strong> to the appropriate level.</p>
+<h3>Set Injection Duration</h3>
+<p>Once the initial voltage threshold is found, the voltage and current waveforms are streamed to the controller for analysis.  This streaming continues until <strong>Injection Duration</strong> is reached.  Set <strong>Injection Duration</strong> to the appropriate level.  Note: Be sure to add some additional time for varitions in the injection time at different RPMs.</p>
 </p>
-<p>Use the <strong>Battery Voltage Threshold</strong> setting to define the threshold used by the acquisition engine to determine the start and end of an injection event and intermediate injection phases within an event.</p>
-</p>
-<p>Use the <strong>Pull-In Current Threshold</strong> setting to define the threshold used by the acquisition engine to determine that a current maximum has occurred.</p>
-</p>
-<p>Use the <strong>Reset Event Counts?</strong> setting to reset all injection event counters.</p>
-</p>
+<h3>Set Voltage Gain</h3>
 <p>Use the <strong>Voltage Gain</strong> setting to apply a gain or scaling to the voltage signal on the FPGA.</p>
 </p>
+<h3>Set Current Gain</h3>
 <p>Use the <strong>Current Gain</strong> setting to apply a gain or scaling to the current signal on the FPGA.</p>
 </body>
 </html> 
