@@ -83,13 +83,11 @@
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../subVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Selection.Convert.Get.vi" Type="VI" URL="../subVIs/Selection.Convert.Get.vi"/>
 			<Item Name="Selection.Convert.Set.vi" Type="VI" URL="../subVIs/Selection.Convert.Set.vi"/>
-			<Item Name="Stage.Settings.vi" Type="VI" URL="../subVIs/Stage.Settings.vi"/>
 			<Item Name="Waveform.Selection.vi" Type="VI" URL="../subVIs/Waveform.Selection.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Analysis.UI.Refs.ctl" Type="VI" URL="../Types/Analysis.UI.Refs.ctl"/>
 			<Item Name="Stage Measurement Channel Names Control.ctl" Type="VI" URL="../Types/Stage Measurement Channel Names Control.ctl"/>
-			<Item Name="Stage.Settings.ctl" Type="VI" URL="../Types/Stage.Settings.ctl"/>
 		</Item>
 	</Item>
 </Library>
