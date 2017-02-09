@@ -15,19 +15,12 @@
 <p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 <hr width="100%" noshade>
 </noscript><h1>Global Settings</h1>
-<h2>What do you want to do?</h2>
-<h3>Enable Injection Capture</h3>
-<p>The monitoring and processing of injection events can be turned off.  To do this, set <strong>Enable Injection Capture</strong> false.  The default is false.</p>
-</p>
-<h3>Set Initial Voltage Threshold</h3>
-<p>The FPGA injection monitors both voltage and current for an injector.  It compares the voltage channel against the <strong>Initial Voltage Threshold</strong> to determine the start of an injection event.  Set <strong>Initial Voltage Threshold</strong> to the appropriate level.</p>
-<h3>Set Injection Duration</h3>
-<p>Once the initial voltage threshold is found, the voltage and current waveforms are streamed to the controller for analysis.  This streaming continues until <strong>Injection Duration</strong> is reached.  Set <strong>Injection Duration</strong> to the appropriate level.  Note: Be sure to add some additional time for varitions in the injection time at different RPMs.</p>
-</p>
-<h3>Set Voltage Gain</h3>
-<p>Use the <strong>Voltage Gain</strong> setting to apply a gain or scaling to the voltage signal on the FPGA.</p>
-</p>
-<h3>Set Current Gain</h3>
-<p>Use the <strong>Current Gain</strong> setting to apply a gain or scaling to the current signal on the FPGA.</p>
+<p>These are settings that apply to all injectors.</p>
+<h3>Settings</h3>
+<p><strong>Enable Injection Capture</strong>: Enables the monitoring and processing of injection events.
+<p><strong>Initial Voltage Threshold</strong>: The value used as the trigger level for finding the start of an injection event.
+<p><strong>Injection Capture Duration</strong>: The acquisition duration after finding the injection event. This value should be larger than the longest expected injection event.
+<p><strong>Voltage Gain</strong>: Applies a gain or scaling to the voltage signal on the FPGA.
+<p><strong>Current Gain</strong>: Applies a gain or scaling to the current signal on the FPGA.
 </body>
 </html> 

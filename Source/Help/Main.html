@@ -15,7 +15,12 @@
 <p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 <hr width="100%" noshade>
 </noscript><h1>Fuel Injector Analysis Addon</h1>
-<p class="Body">This add-on allows the user to acquire injection signals from an FPGA program.  These acquisitions are streamed over a DMA channel and analyzed on the host.</p>
+<p class="Body">This add-on allows the user to acquire injection signals from an FPGA program.  These acquisitions are streamed over a DMA channel and analyzed on the controller.</p>
+<p>The complete injection is referred to as an injection event. An injection event can have multiple shots or individual releases of fuel.  Each shot can have multiple stages or current levels.  The following image shows an example current signal with these different pieces defined.</p>
+<img src="Injection.jpg" 
+alt = "Injection Cycle">
+</p>
+Furthermore, each stage is broken up into 3 sections of Pull-In, Dwell, and Off.
 <h2>What do you want to do?</h2>
 <h3>Disable the Device</h3> 
 <p>Right click on the custom device and select <strong>Disable</strong>.</p>

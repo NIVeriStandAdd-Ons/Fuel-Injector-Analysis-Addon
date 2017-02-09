@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
 
-<title>Injector Stage</title>
+<title>Stage Analysis Results</title>
 <link rel="STYLESHEET" type="text/css" href="VSsystemexplorer.css">
 <script src="common.js" type="text/javascript"></script><script src="expandable_tree.js" type="text/javascript"></script>
 <link rel="STYLESHEET" type="text/css" href="expandable_tree.css">
@@ -14,12 +14,27 @@
 <noscript>
 <p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 <hr width="100%" noshade>
-</noscript><h1>Injector Stage</h1>
-<h2>What do you want to do?</h2>
-<p>Use the <strong>Stream Waveform?</strong> command channel to set whether waveforms will be streamed back to the host for display and logging.</p>
-</p>
-<p>The <strong>Voltage Offset</strong> to apply or remove an offset on the voltage signal on the FPGA.</p>
-</p>
-<p>T<p>The <strong>Current Offset</strong> to apply or remove an offset on the current signal on the FPGA</p>
+</noscript><h1>Stage Analysis Results</h1>
+<p>This section contains the analysis results for a given stage within an injection shot. Note: not all channels will be present based on your selected settings.</p>
+<h3>Injection Event Analysis Channels</h3>
+<p><strong>Pull In Time</strong>: The time in microseconds (us) from the start of the Pull In section to the start of the Hold In section.
+<p><strong>Pull In Max Current</strong>: The maximum current in amps (A) found during the Pull In section.
+<p><strong>Hold In Time</strong>: The time in microseconds (us) from the start of the Hold In section to the start of the Off section.
+<p><strong>Hold In Max Current</strong>: The maximum current in amps (A) found during the Hold In section.
+<p><strong>Hold In Min Current</strong>: The minimum current in amps (A) found during the Hold In section.
+<p><strong>Hold In Avg Current</strong>: The average current in amps (A) found during the Hold In section.
+<p><strong>Hold In Avg Max Current</strong>: The peaks of the current signal are found during the Hold In section. The maximum value of each peak is then taken and averaged in amps (A).
+<p><strong>Hold In Avg Min Current</strong>: The valleys of the current signal are found during the Hold In section. The minimum value of each valley is then taken and averaged in amps (A).
+<p><strong>Hold In Max Voltage</strong>: The maximum voltage in volts (V) found during the Hold In section.
+<p><strong>Hold In Min Voltage</strong>: The minimum voltage in volts (V) found during the Hold In section.
+<p><strong>Hold In Avg Voltage</strong>: The average voltage in volts (V) found during the Hold In section.
+<p><strong>Hold In Avg Max Voltage</strong>: The peaks of the voltage signal are found during the Hold In section. The maximum value of each peak is then taken and averaged in voltage (V).
+<p><strong>Hold In Avg Min Voltage</strong>: The valleys of the voltage signal are found during the Hold In section. The minimum value of each valley is then taken and averaged in voltage (V).
+<p><strong>Off Time</strong>: The time in microseconds (us) from the start of the Off section to the end of the Off section.
+<p><strong>Off Stage Max Current</strong>: The maximum current in amps (A) found during the Off section.
+<p><strong>Off Stage Min Current</strong>: The minimum current in amps (A) found during the Off section.
+<p><strong>Off Stage Avg Current</strong>: The average current in amps (A) found during the Off section.
+<p><strong>Total Voltage Pulses</strong>: The number of voltage pulses found during the entire stage (includes all three sections).
+
 </body>
 </html> 
