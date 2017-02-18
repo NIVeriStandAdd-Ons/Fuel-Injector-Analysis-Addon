@@ -1,4 +1,4 @@
-Control-Custom-Device
+Fuel Injection Addon - ALPHA!!
 ===================
 
 This addon provides capture and analysis of injection waveforms.
