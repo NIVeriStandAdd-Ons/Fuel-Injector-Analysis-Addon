@@ -1364,7 +1364,6 @@ AddOutputFilter chunkFilter
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="Injection.Core.Settings.ctl" Type="VI" URL="../Types/Injection.Core.Settings.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA VI" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1861,7 +1860,6 @@ AddOutputFilter chunkFilter
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="Injection.Core.Settings.ctl" Type="VI" URL="../Types/Injection.Core.Settings.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGA VI_Simulated" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
