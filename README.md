@@ -1,7 +1,7 @@
 Control-Custom-Device
 ===================
 
-This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes..
+This addon provides capture and analysis of injection waveforms.
 
 ### LabVIEW Version ###
 
@@ -13,21 +13,19 @@ Users are allowed to build anything under Build Specifications in the source's L
 
 ### Quality, Limitations ###
 
-IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
-
-IP does not support multiple modes for per PID controller.
+IP is Alpha.  Do not use for real applications yet.
 
 ### Dependencies ###
 
-LabVIEW Control or LabVIEW RT 2015 (required for PID VIs)
+NI RIO 14.0 or later
 
-NI Simple Messaging Library 3.0.0.7 or later
+OpenG LabVIEW Data Library 4.2.0.21
 
-NI Asynchronous Messaging Communication Library 3.3.1.22 or later
+OpenG Error Library 4.2.0.23
+
+LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
 
 VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
-
-VeriStand Addon Network Comm (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Network-Comm)
 
 ### License ###
 
