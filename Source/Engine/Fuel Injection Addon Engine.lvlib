@@ -33,72 +33,44 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Engine" Type="Folder">
-		<Item Name="Async" Type="Folder">
-			<Item Name="Async subVIs" Type="Folder">
-				<Item Name="FPGA &amp; FIFO Config" Type="Folder">
-					<Item Name="Configure FPGA.vi" Type="VI" URL="../SubVIs/Configure FPGA.vi"/>
-					<Item Name="Poll DMA.vi" Type="VI" URL="../SubVIs/Poll DMA.vi"/>
-					<Item Name="Read DMA.vi" Type="VI" URL="../SubVIs/Read DMA.vi"/>
-				</Item>
-				<Item Name="Waveform Analysis" Type="Folder">
-					<Item Name="Controls" Type="Folder">
-						<Item Name="Event Information Control.ctl" Type="VI" URL="../SubVIs/RT Analysis/Controls/Event Information Control.ctl"/>
-						<Item Name="Shot Information Control.ctl" Type="VI" URL="../SubVIs/RT Analysis/Controls/Shot Information Control.ctl"/>
-					</Item>
-					<Item Name="subVIs" Type="Folder">
-						<Item Name="Build Event from Shots.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Build Event from Shots.vi"/>
-						<Item Name="Calculate Average Stage Current.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Average Stage Current.vi"/>
-						<Item Name="Calculate Current Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Current Magnitude Measurements.vi"/>
-						<Item Name="Calculate Hold-In Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Measurements.vi"/>
-						<Item Name="Calculate Hold-In Voltage Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Voltage Measurements.vi"/>
-						<Item Name="Calculate Injection Stage Times.vi" Type="VI" URL="../SubVIs/Calculate Injection Stage Times.vi"/>
-						<Item Name="Calculate Voltage Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Voltage Magnitude Measurements.vi"/>
-						<Item Name="Get Max in Waveform Subset.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Get Max in Waveform Subset.vi"/>
-						<Item Name="Get Waveform Subset.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Get Waveform Subset.vi"/>
-					</Item>
-				</Item>
-				<Item Name="Waveform Session Config" Type="Folder">
-					<Item Name="Close Waveform Sessions.vi" Type="VI" URL="../SubVIs/Close Waveform Sessions.vi"/>
-					<Item Name="Open Waveform Sessions.vi" Type="VI" URL="../SubVIs/Open Waveform Sessions.vi"/>
-					<Item Name="Waveform Write.vi" Type="VI" URL="../SubVIs/Waveform Write.vi"/>
-				</Item>
-				<Item Name="Build Enable Cluster.vi" Type="VI" URL="../SubVIs/Build Enable Cluster.vi"/>
-				<Item Name="Build Result Array from Shots.vi" Type="VI" URL="../SubVIs/Build Result Array from Shots.vi"/>
-				<Item Name="Check for Injector Timeout.vi" Type="VI" URL="../SubVIs/Check for Injector Timeout.vi"/>
-				<Item Name="Pack Data and Write to Inline.vi" Type="VI" URL="../SubVIs/Pack Data and Write to Inline.vi"/>
-				<Item Name="Parse Injection Data.vi" Type="VI" URL="../SubVIs/Parse Injection Data.vi"/>
-				<Item Name="Process Injection Event Data.vi" Type="VI" URL="../SubVIs/Process Injection Event Data.vi"/>
-				<Item Name="Read Injector Event Count from FPGA.vi" Type="VI" URL="../SubVIs/Read Injector Event Count from FPGA.vi"/>
-			</Item>
-			<Item Name="Async Engine.vi" Type="VI" URL="../Async Engine.vi"/>
-		</Item>
+	<Item Name="Processes" Type="Folder">
+		<Item Name="Async Engine.vi" Type="VI" URL="../Async Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Build Event from Shots.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Build Event from Shots.vi"/>
+		<Item Name="Build Result Array from Shots.vi" Type="VI" URL="../SubVIs/Build Result Array from Shots.vi"/>
+		<Item Name="Calculate Current Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Current Magnitude Measurements.vi"/>
+		<Item Name="Calculate Hold-In Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Measurements.vi"/>
+		<Item Name="Calculate Hold-In Voltage Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Voltage Measurements.vi"/>
+		<Item Name="Calculate Voltage Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Voltage Magnitude Measurements.vi"/>
+		<Item Name="Check for Injector Timeout.vi" Type="VI" URL="../SubVIs/Check for Injector Timeout.vi"/>
 		<Item Name="Close FPGA Refs.vi" Type="VI" URL="../SubVIs/Close FPGA Refs.vi"/>
+		<Item Name="Close Waveform Sessions.vi" Type="VI" URL="../SubVIs/Close Waveform Sessions.vi"/>
 		<Item Name="Initialize Injector Timeouts.vi" Type="VI" URL="../SubVIs/Initialize Injector Timeouts.vi"/>
 		<Item Name="Initialize MUX Register.vi" Type="VI" URL="../SubVIs/Initialize MUX Register.vi"/>
 		<Item Name="Initialize Time Register.vi" Type="VI" URL="../SubVIs/Initialize Time Register.vi"/>
 		<Item Name="Open FPGA Reference.vi" Type="VI" URL="../SubVIs/Open FPGA Reference.vi"/>
+		<Item Name="Open Waveform Sessions.vi" Type="VI" URL="../SubVIs/Open Waveform Sessions.vi"/>
+		<Item Name="Pack Data and Write to Inline.vi" Type="VI" URL="../SubVIs/Pack Data and Write to Inline.vi"/>
+		<Item Name="Parse Injection Data.vi" Type="VI" URL="../SubVIs/Parse Injection Data.vi"/>
+		<Item Name="Poll DMA.vi" Type="VI" URL="../SubVIs/Poll DMA.vi"/>
+		<Item Name="Process Injection Event Data.vi" Type="VI" URL="../SubVIs/Process Injection Event Data.vi"/>
 		<Item Name="Register.Initialize.vi" Type="VI" URL="../SubVIs/Register.Initialize.vi"/>
 		<Item Name="Registers.Initialize.vi" Type="VI" URL="../SubVIs/Registers.Initialize.vi"/>
 		<Item Name="RT.Stages.Find.vi" Type="VI" URL="../SubVIs/RT.Stages.Find.vi"/>
 		<Item Name="Stages.GetValues.vi" Type="VI" URL="../SubVIs/Stages.GetValues.vi"/>
 		<Item Name="Update RIO INI File.vi" Type="VI" URL="../SubVIs/Update RIO INI File.vi"/>
+		<Item Name="Waveform Write.vi" Type="VI" URL="../SubVIs/Waveform Write.vi"/>
 		<Item Name="Write To FPGA.vi" Type="VI" URL="../SubVIs/Write To FPGA.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Async Parameters.ctl" Type="VI" URL="../Types/Async Parameters.ctl"/>
-		<Item Name="Battery Stage Current Measurements Cluster Control.ctl" Type="VI" URL="../Types/Battery Stage Current Measurements Cluster Control.ctl"/>
-		<Item Name="Boost Stage Current Measurements Cluster Control.ctl" Type="VI" URL="../Types/Boost Stage Current Measurements Cluster Control.ctl"/>
-		<Item Name="Enable Acquisition Flag Cluster.ctl" Type="VI" URL="../Types/Enable Acquisition Flag Cluster.ctl"/>
-		<Item Name="FPGA Reference.ctl" Type="VI" URL="../Types/FPGA Reference.ctl"/>
 		<Item Name="FPGA Refs.ctl" Type="VI" URL="../Types/FPGA Refs.ctl"/>
 		<Item Name="Injector Event Data Cluster.ctl" Type="VI" URL="../Types/Injector Event Data Cluster.ctl"/>
 		<Item Name="Inline State Data.ctl" Type="VI" URL="../Types/Inline State Data.ctl"/>
-		<Item Name="Off-Stage Current Measurements Cluster Control.ctl" Type="VI" URL="../Types/Off-Stage Current Measurements Cluster Control.ctl"/>
-		<Item Name="Peak and Valley Detection Settings Cluster.ctl" Type="VI" URL="../Types/Peak and Valley Detection Settings Cluster.ctl"/>
 		<Item Name="Search.StateVariables.ctl" Type="VI" URL="../Types/Search.StateVariables.ctl"/>
+		<Item Name="Shot Information Control.ctl" Type="VI" URL="../SubVIs/RT Analysis/Controls/Shot Information Control.ctl"/>
+		<Item Name="Stage.Measurements.ctl" Type="VI" URL="../Types/Stage.Measurements.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
