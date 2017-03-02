@@ -440,7 +440,7 @@
 	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">192.168.1.6</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.3</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -531,8 +531,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">NI 9159/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSNI_9159FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/achurch/Documents/Source/Conti-EMC-Tester/Injection Analysis/FPGA Injection Capture/FPGA VIs/FPGA VI (working copy 3).vi</Property>
-				<Property Name="Resource Name" Type="Str">RIO1</Property>
+				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
 				<Property Name="Target Class" Type="Str">NI 9159</Property>
