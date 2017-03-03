@@ -111,9 +111,9 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Injection.Core.Settings.ctl" Type="VI" URL="../FPGA IP/Types/Injection.Core.Settings.ctl"/>
-			<Item Name="Injection.Global.Settings.ctl" Type="VI" URL="../FPGA IP/Types/Injection.Global.Settings.ctl"/>
-			<Item Name="Injector.Timing.ctl" Type="VI" URL="../FPGA IP/Types/Injector.Timing.ctl"/>
+			<Item Name="Injection.Core.Settings.ctl" Type="VI" URL="../FPGA/Injection Capture IP/Types/Injection.Core.Settings.ctl"/>
+			<Item Name="Injection.Global.Settings.ctl" Type="VI" URL="../FPGA/Injection Capture IP/Types/Injection.Global.Settings.ctl"/>
+			<Item Name="Injection.Timing.ctl" Type="VI" URL="../FPGA/Injection Capture IP/Types/Injection.Timing.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
