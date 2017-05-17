@@ -354,6 +354,22 @@
         <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Stage Transition.vi</Path>
       </Item2Launch>
     </Page>
+      <Page>
+      <Name>
+        <eng>Stage Dwell Level</eng>
+        <loc>Stage Dwell Level</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>AD5D2873-C0A7-4EB9-8234-59F46B57A8EE</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Stage Dwell Level.vi</Path>
+      </Item2Launch>
+    </Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>

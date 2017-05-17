@@ -44,6 +44,7 @@
 				<Item Name="Fuel Injector Analysis Selection.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Selection.vi"/>
 				<Item Name="Fuel Injector Analysis Section.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Section.vi"/>
 				<Item Name="Fuel Injector Pull In Transition.vi" Type="VI" URL="../Pages/Fuel Injector Pull In Transition.vi"/>
+				<Item Name="Fuel Injector Stage Dwell Level.vi" Type="VI" URL="../Pages/Fuel Injector Stage Dwell Level.vi"/>
 				<Item Name="Fuel Injector Stage Transition.vi" Type="VI" URL="../Pages/Fuel Injector Stage Transition.vi"/>
 				<Item Name="Global Settings.vi" Type="VI" URL="../Global Settings.vi"/>
 				<Item Name="Protected Channel.vi" Type="VI" URL="../Pages/Protected Channel.vi"/>
