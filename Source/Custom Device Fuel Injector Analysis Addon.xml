@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>Fuel Injection Addon</eng>
-		<loc>Fuel Injection Addon</loc>
+		<eng>Fuel Injector Analysis Addon</eng>
+		<loc>Fuel Injector Analysis Addon</loc>
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
@@ -13,7 +13,7 @@
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -22,33 +22,33 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injection Addon\Fuel Injection Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injector Analysis Addon\Fuel Injector Analysis Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Fuel Injection Addon\Pharlap\Fuel Injection Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Fuel Injector Analysis Addon\Pharlap\Fuel Injector Analysis Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injection Addon\Fuel Injection Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injector Analysis Addon\Fuel Injector Analysis Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
       <Source>
         <SupportedTarget>Linux_32_ARM</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Fuel Injection Addon\Linux_32_ARM\Fuel Injection Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\Fuel Injector Analysis Addon\Linux_32_ARM\Fuel Injector Analysis Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injection Addon\Fuel Injection Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injector Analysis Addon\Fuel Injector Analysis Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Fuel Injection Addon\Linux_x64\Fuel Injection Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+          <Path>Custom Devices\Fuel Injector Analysis Addon\Linux_x64\Fuel Injector Analysis Addon Engine Linux64.llb\RT Driver VI.vi</Path>
         </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injection Addon\Fuel Injection Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Fuel Injector Analysis Addon\Fuel Injector Analysis Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
@@ -56,18 +56,18 @@
 	<Pages>
 		<Page>
 			<Name>
-				<eng>Fuel Injection Addon</eng>
-				<loc>Fuel Injection Addon</loc>
+				<eng>Fuel Injector Analysis Addon</eng>
+				<loc>Fuel Injector Analysis Addon</loc>
 			</Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>ebb85750-2082-4125-b2c9-f3250be8ebcb</GUID>
       <Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\fuel injection addon.png</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -79,33 +79,33 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+						<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\EnableDisable Main Page.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
 			<ActionVIOnLoad>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\ActionVIOnLoad.vi</Path>
 			</ActionVIOnLoad>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
 		</Page>
 		<Page>
 			<Name>
-				<eng>Fuel Injection Addon</eng>
-				<loc>Fuel Injection Addon</loc>
+				<eng>Fuel Injector Analysis Addon</eng>
+				<loc>Fuel Injector Analysis Addon</loc>
 			</Name>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>ae00c97b-3405-44c3-be31-09e1af6209d0</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\fuel injection addon disabled.png</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon disabled.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -117,13 +117,13 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+						<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\EnableDisable Main Page.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
 			<ActionVIOnLoad>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\ActionVIOnLoad.vi</Path>
 			</ActionVIOnLoad>
 		</Page>
 		<Page>
@@ -140,7 +140,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -158,7 +158,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Global Settings.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Global Settings.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -176,7 +176,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -194,7 +194,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Analysis Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Analysis Section.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -212,7 +212,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
     <Page>
@@ -230,7 +230,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Analysis Selection.vi</Path>
+        <Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Analysis Selection.vi</Path>
       </Item2Launch>
      </Page>
 		<Page>
@@ -248,7 +248,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -266,7 +266,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -284,7 +284,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+				<Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
 			</Item2Launch>
 		</Page>
     <Page>
@@ -302,7 +302,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
+        <Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Default Section.vi</Path>
       </Item2Launch>
     </Page>
 	<Page>
@@ -319,7 +319,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Protected Channel.vi</Path>
+        <Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Protected Channel.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -335,7 +335,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Pull In Transition.vi</Path>
+        <Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Pull In Transition.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -351,7 +351,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Stage Transition.vi</Path>
+        <Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Stage Transition.vi</Path>
       </Item2Launch>
     </Page>
       <Page>
@@ -367,7 +367,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Fuel Injection Addon\Windows\Fuel Injection Addon Configuration.llb\Fuel Injector Stage Dwell Level.vi</Path>
+        <Path>Custom Devices\Fuel Injector Analysis Addon\Windows\Fuel Injector Analysis Addon Configuration.llb\Fuel Injector Stage Dwell Level.vi</Path>
       </Item2Launch>
     </Page>
 	</Pages>
