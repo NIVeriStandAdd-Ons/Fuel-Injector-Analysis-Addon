@@ -1,7 +1,7 @@
-Fuel Injection Addon - ALPHA!!
+Fuel Injector Analysis Addon - BETA!!
 ===================
 
-This addon provides capture and analysis of injection waveforms.
+This addon captures, windows, and analyzes injector waveforms. It requires using analog input channels through an FPGA.
 
 ### LabVIEW Version ###
 
@@ -13,7 +13,7 @@ Users are allowed to build anything under Build Specifications in the source's L
 
 ### Quality, Limitations ###
 
-IP is Alpha.  Do not use for real applications yet.
+IP is Beta.  It has been successfully used on multiple ECUs.
 
 ### Dependencies ###
 
