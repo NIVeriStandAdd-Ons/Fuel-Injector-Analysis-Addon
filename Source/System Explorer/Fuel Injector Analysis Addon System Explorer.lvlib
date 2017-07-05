@@ -74,6 +74,8 @@
 			<Item Name="Build FromVSEngine Command Channels.vi" Type="VI" URL="../subVIs/Build FromVSEngine Command Channels.vi"/>
 			<Item Name="Build ToVSEngine Return Channels.vi" Type="VI" URL="../subVIs/Build ToVSEngine Return Channels.vi"/>
 			<Item Name="Build Waveform Channels.vi" Type="VI" URL="../subVIs/Build Waveform Channels.vi"/>
+			<Item Name="Channel.Index.Get.vi" Type="VI" URL="../subVIs/Channel.Index.Get.vi"/>
+			<Item Name="Channel.Index.Set.vi" Type="VI" URL="../subVIs/Channel.Index.Set.vi"/>
 			<Item Name="Channel.OriginalName.Get.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Get.vi"/>
 			<Item Name="Channel.OriginalName.Set.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Set.vi"/>
 			<Item Name="Create Injectors.vi" Type="VI" URL="../subVIs/Create Injectors.vi"/>
