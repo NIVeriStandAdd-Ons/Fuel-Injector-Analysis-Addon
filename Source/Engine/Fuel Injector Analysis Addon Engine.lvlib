@@ -67,6 +67,7 @@
 		<Item Name="Async Parameters.ctl" Type="VI" URL="../Types/Async Parameters.ctl"/>
 		<Item Name="FPGA Refs.ctl" Type="VI" URL="../Types/FPGA Refs.ctl"/>
 		<Item Name="Injector Event Data Cluster.ctl" Type="VI" URL="../Types/Injector Event Data Cluster.ctl"/>
+		<Item Name="Injector.State.ctl" Type="VI" URL="../Types/Injector.State.ctl"/>
 		<Item Name="Inline State Data.ctl" Type="VI" URL="../Types/Inline State Data.ctl"/>
 		<Item Name="Search.StateVariables.ctl" Type="VI" URL="../Types/Search.StateVariables.ctl"/>
 		<Item Name="Shot Information Control.ctl" Type="VI" URL="../SubVIs/RT Analysis/Controls/Shot Information Control.ctl"/>

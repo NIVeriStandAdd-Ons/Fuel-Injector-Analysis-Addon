@@ -46,6 +46,7 @@
 				<Item Name="Fuel Injector Section.vi" Type="VI" URL="../Pages/Fuel Injector Section.vi"/>
 				<Item Name="Fuel Injector Pull In Transition.vi" Type="VI" URL="../Pages/Fuel Injector Pull In Transition.vi"/>
 				<Item Name="Fuel Injector Stage Dwell Level.vi" Type="VI" URL="../Pages/Fuel Injector Stage Dwell Level.vi"/>
+				<Item Name="Fuel Injector Measurement Type Section.vi" Type="VI" URL="../Pages/Fuel Injector Measurement Type Section.vi"/>
 				<Item Name="Fuel Injector Stage Transition.vi" Type="VI" URL="../Pages/Fuel Injector Stage Transition.vi"/>
 				<Item Name="Global Settings.vi" Type="VI" URL="../Global Settings.vi"/>
 				<Item Name="Protected Channel.vi" Type="VI" URL="../Pages/Protected Channel.vi"/>
@@ -65,7 +66,7 @@
 			<Item Name="Add Boost Stage.vi" Type="VI" URL="../subVIs/Add Boost Stage.vi"/>
 			<Item Name="Add Injector Commands Section.vi" Type="VI" URL="../subVIs/Add Injector Commands Section.vi"/>
 			<Item Name="Add Injector Shots (with separate stage section).vi" Type="VI" URL="../subVIs/Add Injector Shots (with separate stage section).vi"/>
-			<Item Name="Add Injector.vi" Type="VI" URL="../RTM/Add Injector.vi"/>
+			<Item Name="Add Injector.vi" Type="VI" URL="../subVIs/Add Injector.vi"/>
 			<Item Name="Add Peak and Valley Detection Settings Section.vi" Type="VI" URL="../Add Peak and Valley Detection Settings Section.vi"/>
 			<Item Name="Add Stage Section.vi" Type="VI" URL="../subVIs/Add Stage Section.vi"/>
 			<Item Name="Add Waveform Section.vi" Type="VI" URL="../subVIs/Add Waveform Section.vi"/>
@@ -80,7 +81,11 @@
 			<Item Name="Channel.OriginalName.Set.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Set.vi"/>
 			<Item Name="Create Injectors.vi" Type="VI" URL="../subVIs/Create Injectors.vi"/>
 			<Item Name="Find Expected Controls.vi" Type="VI" URL="../subVIs/Find Expected Controls.vi"/>
+			<Item Name="GlobalSettings.Create.vi" Type="VI" URL="../subVIs/GlobalSettings.Create.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../subVIs/Load Help File.vi"/>
+			<Item Name="MeasurementType.Create.GlobalSettings.vi" Type="VI" URL="../subVIs/MeasurementType.Create.GlobalSettings.vi"/>
+			<Item Name="MeasurementType.Create.IPCore.vi" Type="VI" URL="../subVIs/MeasurementType.Create.IPCore.vi"/>
+			<Item Name="MeasurementType.Edit.vi" Type="VI" URL="../subVIs/MeasurementType.Edit.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../subVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Pulses.Count.vi" Type="VI" URL="../subVIs/Pulses.Count.vi"/>
 			<Item Name="Register.Get.vi" Type="VI" URL="../subVIs/Register.Get.vi"/>
