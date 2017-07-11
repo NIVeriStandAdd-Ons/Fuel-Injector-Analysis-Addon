@@ -79,14 +79,14 @@
 			<Item Name="Channel.Index.Set.vi" Type="VI" URL="../subVIs/Channel.Index.Set.vi"/>
 			<Item Name="Channel.OriginalName.Get.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Get.vi"/>
 			<Item Name="Channel.OriginalName.Set.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Set.vi"/>
-			<Item Name="Create Injectors.vi" Type="VI" URL="../subVIs/Create Injectors.vi"/>
 			<Item Name="Find Expected Controls.vi" Type="VI" URL="../subVIs/Find Expected Controls.vi"/>
 			<Item Name="GlobalSettings.Create.vi" Type="VI" URL="../subVIs/GlobalSettings.Create.vi"/>
-			<Item Name="GlobalSettings.Name.GetGroup.vi" Type="VI" URL="../subVIs/GlobalSettings.Name.GetGroup.vi"/>
-			<Item Name="IPCore.Name.GetGroup.vi" Type="VI" URL="../subVIs/IPCore.Name.GetGroup.vi"/>
+			<Item Name="GlobalSettings.GetGroupName.vi" Type="VI" URL="../subVIs/GlobalSettings.GetGroupName.vi"/>
+			<Item Name="Group.Create.vi" Type="VI" URL="../subVIs/Group.Create.vi"/>
+			<Item Name="Group.Find.vi" Type="VI" URL="../subVIs/Group.Find.vi"/>
+			<Item Name="Groups.Create.vi" Type="VI" URL="../subVIs/Groups.Create.vi"/>
+			<Item Name="IPCore.GetGroupName.vi" Type="VI" URL="../subVIs/IPCore.GetGroupName.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../subVIs/Load Help File.vi"/>
-			<Item Name="MeasurementType.Create.GlobalSettings.vi" Type="VI" URL="../subVIs/MeasurementType.Create.GlobalSettings.vi"/>
-			<Item Name="MeasurementType.Create.IPCore.vi" Type="VI" URL="../subVIs/MeasurementType.Create.IPCore.vi"/>
 			<Item Name="MeasurementType.Edit.vi" Type="VI" URL="../subVIs/MeasurementType.Edit.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../subVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Pulses.Count.vi" Type="VI" URL="../subVIs/Pulses.Count.vi"/>
