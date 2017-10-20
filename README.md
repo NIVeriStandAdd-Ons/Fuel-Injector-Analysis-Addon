@@ -1,4 +1,4 @@
-Fuel Injector Analysis Addon - BETA!!
+Fuel Injector Analysis Addon
 ===================
 
 This addon captures, windows, and analyzes injector waveforms. It requires using analog input channels through an FPGA.
