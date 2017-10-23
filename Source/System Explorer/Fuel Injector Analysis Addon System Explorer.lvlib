@@ -45,7 +45,7 @@
 				<Item Name="Fuel Injector Analysis Section.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Section.vi"/>
 				<Item Name="Fuel Injector Section.vi" Type="VI" URL="../Pages/Fuel Injector Section.vi"/>
 				<Item Name="Fuel Injector Pull In Transition.vi" Type="VI" URL="../Pages/Fuel Injector Pull In Transition.vi"/>
-				<Item Name="Fuel Injector Stage Dwell Level.vi" Type="VI" URL="../Pages/Fuel Injector Stage Dwell Level.vi"/>
+				<Item Name="Fuel Injector Stage Voltage Threshold.vi" Type="VI" URL="../Pages/Fuel Injector Stage Voltage Threshold.vi"/>
 				<Item Name="Fuel Injector Measurement Type Section.vi" Type="VI" URL="../Pages/Fuel Injector Measurement Type Section.vi"/>
 				<Item Name="Fuel Injector Stage Transition.vi" Type="VI" URL="../Pages/Fuel Injector Stage Transition.vi"/>
 				<Item Name="Global Settings.vi" Type="VI" URL="../Pages/Global Settings.vi"/>

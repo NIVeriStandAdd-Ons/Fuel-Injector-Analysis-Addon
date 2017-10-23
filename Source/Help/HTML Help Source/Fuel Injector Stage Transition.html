@@ -15,10 +15,10 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>Stage Transition Settings</h1>
-<p>The analysis needs to find the three sections of a stage (pull-in, hold in, and off). There are multiple configurable approaches for finding these sections. This setting helps define the transition from hold in to off.</p>
+<p>The analysis needs to find the three sections of a stage (pull-in, hold, and off). There are multiple configurable approaches for finding these sections. This setting helps define the transition from hold to off.</p>
 <h3>Stage Transition Settings</h3>
-<p><strong>Option 1: Stage Transition Dwell Time</strong> measures the time of each dwell to determine when the hold in section is done. When the dwell time exceeds the channel value, the hold in section is considered complete.</p>
-<p><strong>Option 2: Stage Transition Voltage Level</strong> measures the voltage pulse level to determine when the hold in section is done. This is helpful for when you have two stages together that do not have an off section but do have a voltage level change. The channel value sets the voltage level.</p>
+<p><strong>Option 1: Stage Transition Inactive Time</strong> measures the time of each dwell to determine when the hold section is done. When the dwell time exceeds the channel value, the hold section is considered complete.</p>
+<p><strong>Option 2: Stage Transition Voltage Increase</strong> measures the voltage pulse level to determine when the hold section is done. This is helpful for when you have two stages together that do not have an off section but do have a voltage level change. The channel value sets the voltage level. Note: Increase is relative to the <strong>Active Edge</strong> setting.</p>
 <p><strong>Option 3: Stage Transition Current Drop</strong> measures the current drop after finding a max value to determine when the pull in section is done. The channel value sets the drop level.</p>
-<p><strong>Option 4: Stage Transition Active Time</strong> measures the time of each active voltage pulse to determine when the hold in section is done. When the active time exceeds the channel value, the hold in section is considered complete.</p>
+<p><strong>Option 4: Stage Transition Active Time</strong> measures the time of each active voltage pulse to determine when the hold section is done. When the active time exceeds the channel value, the hold section is considered complete.</p>
 </html> 
