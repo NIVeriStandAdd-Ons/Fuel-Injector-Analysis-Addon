@@ -42,7 +42,7 @@
 		<Item Name="Calculate Current Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Current Magnitude Measurements.vi"/>
 		<Item Name="Calculate Hold-In Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Measurements.vi"/>
 		<Item Name="Calculate Hold-In Voltage Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Voltage Measurements.vi"/>
-		<Item Name="Calculate Voltage Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Voltage Magnitude Measurements.vi"/>
+		<Item Name="Calculate Voltage Pulses.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Voltage Pulses.vi"/>
 		<Item Name="Check for Injector Timeout.vi" Type="VI" URL="../SubVIs/Check for Injector Timeout.vi"/>
 		<Item Name="Close FPGA Refs.vi" Type="VI" URL="../SubVIs/Close FPGA Refs.vi"/>
 		<Item Name="Close Waveform Sessions.vi" Type="VI" URL="../SubVIs/Close Waveform Sessions.vi"/>
