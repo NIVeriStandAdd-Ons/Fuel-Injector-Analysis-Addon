@@ -38,6 +38,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="RTM" Type="Folder">
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTM/EnableDisable Main Page.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTM/ExportConfigurationToFile.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Fuel Injector Default Section.vi" Type="VI" URL="../Pages/Fuel Injector Default Section.vi"/>
