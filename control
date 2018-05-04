@@ -1,4 +1,4 @@
-Package: fuel-injector-analysis-addon-custom-device-{veristand_version}
+Package: fuel-injector-analysis-addon-{veristand_version}
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
@@ -11,5 +11,5 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: 1.0
-XB-DisplayName: Fuel Injector Analysis Add-On Custom Device for VeriStand {veristand_version}
+XB-DisplayName: Fuel Injector Analysis Addon for VeriStand {veristand_version}
 Depends: 
