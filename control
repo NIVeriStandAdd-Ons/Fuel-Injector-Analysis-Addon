@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  This add-on allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification.
+Description:  This addon captures, windows, and analyzes injector waveforms. It requires using analog input channels through an FPGA.
 XB-Eula:  
 Priority: standard
 Homepage: http://www.ni.com
