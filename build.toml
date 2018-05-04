@@ -26,7 +26,7 @@ name = 'SysDef API'
 type = 'lvBuildSpec'
 project = '{api}'
 target = 'My Computer'
-build_spec = 'Fuel Injector Analysis Addon SysDef API'
+build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'

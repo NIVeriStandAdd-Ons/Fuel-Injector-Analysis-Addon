@@ -22,7 +22,7 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
@@ -42,10 +42,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Fuel Injector Analysis Addon SysDef API" Type="Packed Library">
+			<Item Name="System Definition API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{258EA8FD-699B-49FA-BE70-DFE9A8152463}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Fuel Injector Analysis Addon SysDef API</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">System Definition API</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -64,7 +64,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{719B10A6-AC70-4B32-BDF6-F8240E361FF0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7BB5B163-8F8B-41AB-8E4B-C791479327D8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Fuel Injector Analysis Addon SysDef API.lvlib</Property>
@@ -75,10 +75,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Fuel Injector Analysis Addon SysDef API</Property>
-				<Property Name="TgtF_internalName" Type="Str">Fuel Injector Analysis Addon SysDef API</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">System Definition API</Property>
+				<Property Name="TgtF_internalName" Type="Str">System Definition API</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
-				<Property Name="TgtF_productName" Type="Str">Fuel Injector Analysis Addon SysDef API</Property>
+				<Property Name="TgtF_productName" Type="Str">System Definition API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8A4F73EA-D143-4F0E-90A6-B4F438030DDE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Fuel Injector Analysis Addon System Definition API.lvlibp</Property>
 			</Item>
