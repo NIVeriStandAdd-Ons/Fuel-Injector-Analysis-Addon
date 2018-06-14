@@ -40,6 +40,7 @@
 			<Item Name="Main Settings.ctl" Type="VI" URL="../Types/Main Settings.ctl"/>
 			<Item Name="FPGA Data Types.ctl" Type="VI" URL="../Types/FPGA Data Types.ctl"/>
 			<Item Name="Analysis.Channels.Select.ctl" Type="VI" URL="../Types/Analysis.Channels.Select.ctl"/>
+			<Item Name="Compiled.Group.WaveformRefs.ctl" Type="VI" URL="../Types/Compiled.Group.WaveformRefs.ctl"/>
 			<Item Name="Register.Info.ctl" Type="VI" URL="../Types/Register.Info.ctl"/>
 			<Item Name="Stage.Events.ctl" Type="VI" URL="../Types/Stage.Events.ctl"/>
 			<Item Name="Stage.PullIn.Types.ctl" Type="VI" URL="../Types/Stage.PullIn.Types.ctl"/>
@@ -49,8 +50,10 @@
 			<Item Name="Injector info.ctl" Type="VI" URL="../Types/Injector info.ctl"/>
 			<Item Name="Shot.Parameters.ctl" Type="VI" URL="../Types/Shot.Parameters.ctl"/>
 			<Item Name="Stage.Parameters.ctl" Type="VI" URL="../Types/Stage.Parameters.ctl"/>
+			<Item Name="Compiled.Group.Timing.ctl" Type="VI" URL="../Types/Compiled.Group.Timing.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="Main Settings FG.vi" Type="VI" URL="../Main Settings FG.vi"/>
+		<Item Name="Measurement Type FG.vi" Type="VI" URL="../Measurement Type FG.vi"/>
 	</Item>
 </Library>

@@ -81,6 +81,7 @@
 			<Item Name="Channel.OriginalName.Get.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Get.vi"/>
 			<Item Name="Channel.OriginalName.Set.vi" Type="VI" URL="../subVIs/Channel.OriginalName.Set.vi"/>
 			<Item Name="Find Expected Controls.vi" Type="VI" URL="../subVIs/Find Expected Controls.vi"/>
+			<Item Name="Find Group Sample Rate.vi" Type="VI" URL="../subVIs/Find Group Sample Rate.vi"/>
 			<Item Name="GlobalSettings.Create.vi" Type="VI" URL="../subVIs/GlobalSettings.Create.vi"/>
 			<Item Name="GlobalSettings.GetGroupName.vi" Type="VI" URL="../subVIs/GlobalSettings.GetGroupName.vi"/>
 			<Item Name="Group.Create.vi" Type="VI" URL="../subVIs/Group.Create.vi"/>
