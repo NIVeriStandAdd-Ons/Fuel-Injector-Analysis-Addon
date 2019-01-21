@@ -9,13 +9,17 @@ LabVIEW 2015
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
+https://github.com/NIVeriStandAdd-Ons/Fuel-Injector-Analysis-Addon/releases
+
+### Built Dependencies ###
+
+NI RIO 14.0 or later
 
 ### Quality, Limitations ###
 
 IP is Beta.  It has been successfully used on multiple ECUs.
 
-### Dependencies ###
+### Source Dependencies ###
 
 NI RIO 14.0 or later
 
