@@ -5,7 +5,7 @@ This addon captures, windows, and analyzes injector waveforms. It requires using
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2019
 
 ### Built Availability ###
 
@@ -13,7 +13,7 @@ https://github.com/NIVeriStandAdd-Ons/Fuel-Injector-Analysis-Addon/releases
 
 ### Built Dependencies ###
 
-NI RIO 14.0 or later
+NI RIO 19.0 or later
 
 ### Quality, Limitations ###
 
@@ -21,7 +21,7 @@ IP is Beta.  It has been successfully used on multiple ECUs.
 
 ### Source Dependencies ###
 
-NI RIO 14.0 or later
+NI RIO 19.0 or later
 
 OpenG LabVIEW Data Library 4.2.0.21
 
