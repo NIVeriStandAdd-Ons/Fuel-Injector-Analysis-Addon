@@ -46,6 +46,7 @@
 		<Item Name="Check for Injector Timeout.vi" Type="VI" URL="../SubVIs/Check for Injector Timeout.vi"/>
 		<Item Name="Close FPGA Refs.vi" Type="VI" URL="../SubVIs/Close FPGA Refs.vi"/>
 		<Item Name="Close Waveform Sessions.vi" Type="VI" URL="../SubVIs/Close Waveform Sessions.vi"/>
+		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Initialize Injector Timeouts.vi" Type="VI" URL="../SubVIs/Initialize Injector Timeouts.vi"/>
 		<Item Name="Initialize MUX Register.vi" Type="VI" URL="../SubVIs/Initialize MUX Register.vi"/>
 		<Item Name="Initialize Time Register.vi" Type="VI" URL="../SubVIs/Initialize Time Register.vi"/>

@@ -5,7 +5,7 @@
 		<eng>Fuel Injector Analysis Addon</eng>
 		<loc>Fuel Injector Analysis Addon</loc>
 	</AddMenu>
-	<Version>4.0.0</Version>
+	<Version>4.0.1</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>ebb85750-2082-4125-b2c9-f3250be8ebcb</MainPageGUID>
