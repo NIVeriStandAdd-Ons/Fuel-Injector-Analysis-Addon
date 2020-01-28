@@ -41,16 +41,16 @@
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTM/ExportConfigurationToFile.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Fuel Injector Default Section.vi" Type="VI" URL="../Pages/Fuel Injector Default Section.vi"/>
-				<Item Name="Fuel Injector Analysis Selection.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Selection.vi"/>
-				<Item Name="Fuel Injector Analysis Section.vi" Type="VI" URL="../Pages/Fuel Injector Analysis Section.vi"/>
-				<Item Name="Fuel Injector Section.vi" Type="VI" URL="../Pages/Fuel Injector Section.vi"/>
-				<Item Name="Fuel Injector Pull In Transition.vi" Type="VI" URL="../Pages/Fuel Injector Pull In Transition.vi"/>
-				<Item Name="Fuel Injector Stage Voltage Threshold.vi" Type="VI" URL="../Pages/Fuel Injector Stage Voltage Threshold.vi"/>
-				<Item Name="Fuel Injector Measurement Type Section.vi" Type="VI" URL="../Pages/Fuel Injector Measurement Type Section.vi"/>
-				<Item Name="Fuel Injector Stage Transition.vi" Type="VI" URL="../Pages/Fuel Injector Stage Transition.vi"/>
-				<Item Name="Global Settings.vi" Type="VI" URL="../Pages/Global Settings.vi"/>
-				<Item Name="Protected Channel.vi" Type="VI" URL="../Pages/Protected Channel.vi"/>
+				<Item Name="Fuel Injector Default Section.vi" Type="VI" URL="../Extra Pages/Fuel Injector Default Section.vi"/>
+				<Item Name="Fuel Injector Analysis Selection.vi" Type="VI" URL="../Extra Pages/Fuel Injector Analysis Selection.vi"/>
+				<Item Name="Fuel Injector Analysis Section.vi" Type="VI" URL="../Extra Pages/Fuel Injector Analysis Section.vi"/>
+				<Item Name="Fuel Injector Section.vi" Type="VI" URL="../Extra Pages/Fuel Injector Section.vi"/>
+				<Item Name="Fuel Injector Pull In Transition.vi" Type="VI" URL="../Extra Pages/Fuel Injector Pull In Transition.vi"/>
+				<Item Name="Fuel Injector Stage Voltage Threshold.vi" Type="VI" URL="../Extra Pages/Fuel Injector Stage Voltage Threshold.vi"/>
+				<Item Name="Fuel Injector Measurement Type Section.vi" Type="VI" URL="../Extra Pages/Fuel Injector Measurement Type Section.vi"/>
+				<Item Name="Fuel Injector Stage Transition.vi" Type="VI" URL="../Extra Pages/Fuel Injector Stage Transition.vi"/>
+				<Item Name="Global Settings.vi" Type="VI" URL="../Extra Pages/Global Settings.vi"/>
+				<Item Name="Protected Channel.vi" Type="VI" URL="../Extra Pages/Protected Channel.vi"/>
 			</Item>
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>

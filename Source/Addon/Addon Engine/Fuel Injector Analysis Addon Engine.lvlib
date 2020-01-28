@@ -34,15 +34,15 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="Async Engine.vi" Type="VI" URL="../Async Engine.vi"/>
+		<Item Name="Async Engine.vi" Type="VI" URL="../Processes/Async Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Build Event from Shots.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Build Event from Shots.vi"/>
+		<Item Name="Build Event from Shots.vi" Type="VI" URL="../SubVIs/Build Event from Shots.vi"/>
 		<Item Name="Build Result Array from Shots.vi" Type="VI" URL="../SubVIs/Build Result Array from Shots.vi"/>
-		<Item Name="Calculate Current Magnitude Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Current Magnitude Measurements.vi"/>
-		<Item Name="Calculate Hold-In Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Measurements.vi"/>
-		<Item Name="Calculate Hold-In Voltage Measurements.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Hold-In Voltage Measurements.vi"/>
-		<Item Name="Calculate Voltage Pulses.vi" Type="VI" URL="../SubVIs/RT Analysis/subVIs/Calculate Voltage Pulses.vi"/>
+		<Item Name="Calculate Current Magnitude Measurements.vi" Type="VI" URL="../SubVIs/Calculate Current Magnitude Measurements.vi"/>
+		<Item Name="Calculate Hold-In Measurements.vi" Type="VI" URL="../SubVIs/Calculate Hold-In Measurements.vi"/>
+		<Item Name="Calculate Hold-In Voltage Measurements.vi" Type="VI" URL="../SubVIs/Calculate Hold-In Voltage Measurements.vi"/>
+		<Item Name="Calculate Voltage Pulses.vi" Type="VI" URL="../SubVIs/Calculate Voltage Pulses.vi"/>
 		<Item Name="Check for Injector Timeout.vi" Type="VI" URL="../SubVIs/Check for Injector Timeout.vi"/>
 		<Item Name="Close FPGA Refs.vi" Type="VI" URL="../SubVIs/Close FPGA Refs.vi"/>
 		<Item Name="Close Waveform Sessions.vi" Type="VI" URL="../SubVIs/Close Waveform Sessions.vi"/>
@@ -71,7 +71,7 @@
 		<Item Name="Injector.State.ctl" Type="VI" URL="../Types/Injector.State.ctl"/>
 		<Item Name="Inline State Data.ctl" Type="VI" URL="../Types/Inline State Data.ctl"/>
 		<Item Name="Search.StateVariables.ctl" Type="VI" URL="../Types/Search.StateVariables.ctl"/>
-		<Item Name="Shot Information Control.ctl" Type="VI" URL="../SubVIs/RT Analysis/Controls/Shot Information Control.ctl"/>
+		<Item Name="Shot Information Control.ctl" Type="VI" URL="../Types/Shot Information Control.ctl"/>
 		<Item Name="Stage.Measurements.ctl" Type="VI" URL="../Types/Stage.Measurements.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>

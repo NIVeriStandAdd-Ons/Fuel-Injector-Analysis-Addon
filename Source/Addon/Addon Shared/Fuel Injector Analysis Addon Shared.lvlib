@@ -52,8 +52,10 @@
 			<Item Name="Stage.Parameters.ctl" Type="VI" URL="../Types/Stage.Parameters.ctl"/>
 			<Item Name="Compiled.Group.Timing.ctl" Type="VI" URL="../Types/Compiled.Group.Timing.ctl"/>
 		</Item>
-		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="Main Settings FG.vi" Type="VI" URL="../Main Settings FG.vi"/>
-		<Item Name="Measurement Type FG.vi" Type="VI" URL="../Measurement Type FG.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="Main Settings FG.vi" Type="VI" URL="../SubVIs/Main Settings FG.vi"/>
+			<Item Name="Measurement Type FG.vi" Type="VI" URL="../SubVIs/Measurement Type FG.vi"/>
+		</Item>
 	</Item>
 </Library>
