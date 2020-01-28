@@ -13,10 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+		<Item Name="System Definition API" Type="Folder">
+			<Item Name="Fuel Injector Analysis System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/Fuel Injector Analysis System Definition API.lvlib"/>
 		</Item>
-		<Item Name="Fuel Injector Analysis Addon SysDef API.lvlib" Type="Library" URL="../System Definition API/Fuel Injector Analysis Addon SysDef API.lvlib"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
@@ -33,7 +35,10 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="Fuel Injector Analysis Addon Shared.lvlib" Type="Library" URL="../Shared/Fuel Injector Analysis Addon Shared.lvlib"/>
+			<Item Name="Fuel Injector Analysis Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Fuel Injector Analysis Addon Shared.lvlib"/>
+			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -64,10 +69,10 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7BB5B163-8F8B-41AB-8E4B-C791479327D8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0827ECC2-65BC-44F1-8740-481D4D0DF1E0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Fuel Injector Analysis Addon SysDef API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/System Definition API/Fuel Injector Analysis System Definition API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
