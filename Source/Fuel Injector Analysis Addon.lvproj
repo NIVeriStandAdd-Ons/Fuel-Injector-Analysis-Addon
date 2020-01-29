@@ -187,7 +187,7 @@
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E4753CD3-4056-47D6-A055-FAD64F3561CD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4AC0A9F7-4AE8-45B3-BACC-F598CD93C1BE}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
