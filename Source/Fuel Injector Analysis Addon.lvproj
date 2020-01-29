@@ -167,27 +167,27 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utilities/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Fuel Injection Addon Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows/Fuel Injector Analysis Addon Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Fuel Injector Analysis Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML Location</Property>
-				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[4].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/Fuel Injector Analysis Addon/Windows/Glyphs</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C5107F35-4B81-4F88-92AE-28E60B3987E9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4753CD3-4056-47D6-A055-FAD64F3561CD}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -241,16 +241,16 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs/fuel injector analysis addon disabled.png</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs/fuel injector analysis addon.png</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/InjectorAnalysis.chm</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Injector Analysis Addon.chm</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
