@@ -1,11 +1,13 @@
-Fuel Injector Analysis Addon
+Fuel-Injector-Analysis-Addon
 ===================
+
+### Description ###
 
 This addon captures, windows, and analyzes injector waveforms. It requires using analog input channels through an FPGA.
 
-### LabVIEW Version ###
+### Help ###
 
-LabVIEW 2019
+Help is included in most System Explorer sections.
 
 ### Built Availability ###
 
@@ -18,6 +20,10 @@ NI RIO 19.0 or later
 ### Quality, Limitations ###
 
 IP is Beta.  It has been successfully used on multiple ECUs.
+
+### Source Version ###
+
+LabVIEW 2019
 
 ### Source Dependencies ###
 
